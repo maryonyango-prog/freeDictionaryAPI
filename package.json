@@ -4,7 +4,7 @@
   "description": "There was no free Dictionary API on the web when I wanted one for my friend, so I created one.",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "start": "node app.js"
   },
   "author": "Suraj Jain",
@@ -16,5 +16,8 @@
     "lodash": "^4.17.20",
     "node-fetch": "^2.6.0",
     "serialize-error": "^7.0.1"
+  },
+  "devDependencies": {
+    "jest": "^30.2.0"
   }
 }
